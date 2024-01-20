@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#k1{
+    width: 800px;
+    height: 800px;
+    border: 1px solid rgb(198, 198, 198);
+    padding-right: 15px;
+}
+header{
+    border-bottom: 1px solid orange;    
+}
+nav{
+    float: left;
+    width:25%;
+    height: 90%;
+    background-image: url(/Hinh/back.jpg);
+    background-size: 100%;
+}
+section{
+    margin-left: 205px;
+}
+.ar1{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 20px;
+}
+.arGop{
+    border: 1px solid white;
+    width: 100%;
+    height: 340px;
+    margin-bottom: 20px;
+}
+.ar2{
+    float: left;
+    width: 55%;
+    height: 250px;
+    
+}
+.ar3{
+    float: left;
+    border: 4px solid orange;
+    border-right: 4px solid rgb(175, 117, 8);
+    border-bottom: 4px solid rgb(175, 117, 8);
+    width: 43%;
+    height: 280px;
+    margin: 10px 0 0 3px;
+}
+.ar3a{
+    width: 100%;
+    height: 80px;
+    margin-top: 300px;
+    color: brown;
+    text-align: justify;
+}
+.ar4{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+    
+}
+footer{
+    float: left;
+    border-top: 1px solid orange;
+    width: 73%;
+    height: 35px;
+    margin-left: 10px;
+}
+
+
+/* định dạng chữ */
+
+nav li{
+    list-style-type: none;
+    margin-left: -30px;
+    margin-bottom: 16px;
+    border-bottom: 2px dashed rgb(234, 167, 131);
+    width: 150px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* section ar1 */
+
+
+.div1{
+    height: 60px;
+    margin-bottom: 10px;
+   
+}
+.ar1 h1{
+    float: left;
+    padding: 20px 0 20px 0px;
+    font-size: 26px;
+    color: orange;
+}
+
+.div2{
+    color: brown;
+    text-align: left;
+}
+
+/* section arGop */
+
+.ar2 h1{
+    color: orange;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.ar2 p{
+    font-size: 16.5px;
+    color: brown;
+    text-align: justify;
+    padding-right: 10px;
+}
+.ar3 h3{
+    color: orange;
+    padding-bottom: 10px;
+}
+.ar3 li{
+    color: brown;
+}
+.ar4 p{
+    color: brown;
+    text-align: justify;
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    color:orange;
+}
