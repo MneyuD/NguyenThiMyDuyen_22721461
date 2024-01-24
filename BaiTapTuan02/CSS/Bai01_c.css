@@ -1,0 +1,232 @@
+#container {
+    width: 1180px;
+    height: 982px;
+    margin: auto;
+    border: 1px solid brown;
+}
+
+header {
+    width: 1100px;
+    height: 55px;
+}
+
+body {
+    margin-top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(222 153 154);
+    
+}
+
+#content {
+    width: 120%;
+    height: 850px;
+}
+
+
+
+#content section {
+    float: left;
+    width: 65%;
+    height: 750px;
+
+}
+
+#content aside {
+    float: left;
+    width: 18.5%;
+    height: 750px;
+    background-color: hsl(0, 4%, 5%);
+    color: white;
+}
+
+.hMenu {
+    line-height: 25px;
+    align-items: center;
+    float: right;
+    width: 40px;
+    height: 40px;
+
+}
+
+.left {
+    float: left;
+    width: 30%;
+    height: 800px;
+    background-color: white;
+}
+
+.hComPa {
+    color: rgb(222 153 154);
+    clear: both;
+    border-radius: 50%;
+    width: 95%;
+    height: 20%;
+    box-shadow: 20px 20px 15px;
+    margin-top: 18px;
+}
+
+.ar1,
+.ar2 {
+    width: 100%;
+    height: 170px;
+}
+
+.ar2 {
+    margin-top: -30px;
+}
+
+.ar3 {
+    width: 100%;
+    height: 380px;
+}
+
+
+aside article{
+    width: 91%;
+    height: 250px;
+    margin: 10px;
+    margin-bottom: 70px;
+    
+
+}
+aside article h4{
+   overflow: hidden;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   display: -webkit-box;
+   text-overflow: ellipsis;
+   
+
+}
+.hAside1{
+    margin-top: -20px;
+    width: 98%;
+
+}
+aside article p{
+    text-overflow: ellipsis; 
+    overflow: visible;
+}
+
+
+footer {
+    margin-top: -80px;
+    float: left;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(222 153 154);
+    color: white;
+    padding-bottom: 20px;
+    border-top: 1px solid brown;
+}
+
+
+
+
+
+/* Định dạng chữ */
+header {
+    border-right: 1px solid white;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(186, 72, 72);
+    text-shadow: 15px 10px 5px;
+}
+
+.menu li {
+    padding: 0 30px 0 0;
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    border-left: 1px solid blue;
+    text-align: right;
+
+}
+
+.left li {
+    font-size: 18px;
+    list-style-type: none;
+    background-color: rgb(222 153 154);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-left: -40px;
+    color: white;
+}
+
+.ar1 h1,
+.ar2 h1 {
+    margin-left: 420px;
+    width: 50%;
+    height: 30px;
+    padding-left: 20px;
+    letter-spacing: 15px;
+    color: rgb(203, 30, 27);
+    font-size: 30px;
+    background-color: rgb(222 153 154);
+
+}
+
+.ar1 li,
+.ar2 li {
+    margin-left: 270px;
+}
+
+.ar3 h1 {
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    margin-left: 400px;
+    background-color: rgb(222 153 154);
+    color: rgb(203, 30, 27);
+    letter-spacing: 15px;
+
+}
+
+.ar3 input {
+    width: 290px;
+    height: 30px;
+    margin: 10px;
+}
+
+label {
+    font-size: 12px;
+}
+
+.radio {
+
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 50%;
+}
+.btn input{
+    float: left;
+    width: 70px;
+    margin-right: -5px;
+
+}
+
+details, summary{
+    display: block;
+    
+}
+details, summary{
+    display: block;
+    
+}
+.honey{
+    color: orange;
+}
+.back{
+    color: red;
+    font-weight: bold;
+}
