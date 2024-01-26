@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+#k1 {
+    width: 700px;
+    height: 730px;
+    border: 1px solid rgb(210, 210, 210);
+    border-bottom: 1px solid black;
+    
+}
+
+header {
+    width: 100%;
+    height: 8%;
+    background-color: rgb(156 82 36);
+    
+}
+
+.nav1 {
+    width: 100%;
+    height: 3%;
+    border: 1px solid black;
+    border-left: hidden;
+    border-right: hidden;
+}
+.nav2 {
+    width: 100%;
+    height: 150px;
+}
+.nav2 img{
+    width: 100%;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+
+section{
+    float: left;
+    width: 60%;
+    height: 58%;
+    
+
+}
+aside{
+    float: right;
+    width: 39%;
+    height: 58%;
+    border-left: 1px solid rgb(227, 226, 226);
+
+}
+footer{
+    float: left;
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(220, 220, 220);
+    border-left: hidden;
+    border-right: hidden;
+    margin-top: 8px;
+}
+.ar1{
+    width: 85%;
+    color: rgb(176, 167, 62);
+}
+.div1{
+    background-color: rgb(248 236 216);
+    width: 80%;
+    border-radius: 25px 25px 0 0;
+}
+.div2{
+    width: 80%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 42px;
+}
+.div3{
+    float: left;
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgb(210, 210, 210);
+    margin-right: 8px;
+}
+.div3 img{
+    float: left;
+    width: 92%;
+    height: 92%;
+    padding: 8px 0 0 8px;
+}
+footer img{
+    float: left;
+    width: 18%;
+}
+.h3{
+    float: right;
+    width: 80px;
+    margin-top: -12px;
+}
+.h2{
+    float: left;
+    width: 60px;
+    margin: 17px 0 0 -60px;
+
+}
+.h4{
+    float: right;
+    width: 80px;
+    margin: 9px -80px ;
+
+}
+
+/* ĐỊNH DẠNG CHỮ */
+h1{
+    padding: 15px 0 0 10px;
+    color: rgb(118, 121, 35);
+    text-shadow: white -5px -5px 8px;
+    letter-spacing: 5px;
+}
+.nav1 li{
+    color: brown;
+    display: inline-block;
+    padding-right: 50px;
+}
+section div{
+    padding-left: 10px;
+    color: rgb(166 130 56);
+
+
+}
+.ar1{
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.ar2 li{
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+.ar2 input{
+    height: 30px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.btnli{
+    float: left;
+    margin-top: 30px;
+    width: 120px;
+    border: hidden;
+    background-color: rgb(127 129 38);
+    
+}
+.btn{
+    color: white;
+    border: hidden;
+    background-color: rgb(127 129 38);
+}
+.div1 h2{
+    margin-left: 15px;
+    color:rgb(88 58 51) ;
+}
+.div1 li{
+    color: brown;
+    list-style: square;
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+.div1 ul{
+    margin-top: 30px;
+}
+.div2 h2{
+    letter-spacing: 4px;
+    color:rgb(88 58 51);
+    padding-bottom: 15px;
+
+}
+.div2 p{
+    text-align: justify;
+    padding-right: 20px;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
